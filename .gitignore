@@ -1,0 +1,31 @@
+﻿# Dependencies
+node_modules/
+vendor/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache & Temp
+.cache/
+*.tmp
+*.log
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads (optional - comment out if you want to push uploads)
+# uploads/
+
+# Config (optional - uncomment if you want to hide config)
+# src/config/koneksi.php
