@@ -1,21 +1,20 @@
-# 🍹 DrinkCashier - Sistem Kasir Minuman Berbasis Web
+DrinkCashier - Sistem Kasir Minuman Berbasis Web
 
 Sistem kasir modern untuk toko minuman dengan antarmuka yang elegan dan responsif. Dibangun menggunakan **PHP 7.4+, MySQL/MariaDB, dan HTML5** dengan desain **glassmorphism** yang menarik.
 
 **Versi:** 2.0 | **Status:** Development | **Last Updated:** 2 Juni 2026
 
 ---
+Fitur Sistem
 
-## 📋 Fitur Sistem
-
-### ✅ **Autentikasi & Keamanan**
+### **Autentikasi & Keamanan**
 - ✔️ Halaman login dengan validasi session
 - ✔️ Logout dengan clear session
 - ✔️ Proteksi halaman dengan session check
 - ✔️ Password handling (plain + hash support)
 - ✔️ Error message informatif
 
-### ✅ **Manajemen Produk (CRUD Lengkap)**
+### **Manajemen Produk (CRUD Lengkap)**
 
 #### **CREATE - Tambah Produk**
 - Form input data produk lengkap dengan validasi
@@ -47,7 +46,7 @@ Sistem kasir modern untuk toko minuman dengan antarmuka yang elegan dan responsi
 - Auto-delete file gambar dari server
 - Notifikasi sukses setelah hapus
 
-### ✅ **Dashboard & Statistik**
+### **Dashboard & Statistik**
 - Total produk tersimpan
 - Total stok produk
 - Jumlah produk habis/stok 0
@@ -55,7 +54,7 @@ Sistem kasir modern untuk toko minuman dengan antarmuka yang elegan dan responsi
 - Auto-update statistik dari database
 - Card-based layout dengan icon
 
-### ✅ **Halaman Transaksi** 🚀
+### **Halaman Transaksi** 
 - Tampilkan daftar produk aktif dengan foto
 - Keranjang belanja interaktif (add/remove/update qty)
 - Perhitungan otomatis: subtotal, total, kembalian
@@ -65,13 +64,13 @@ Sistem kasir modern untuk toko minuman dengan antarmuka yang elegan dan responsi
 - Generate kode transaksi unik
 - Detail produk disimpan dalam JSON
 
-### ✅ **Halaman Struk/Receipt**
+### **Halaman Struk/Receipt**
 - Display struk pembayaran
 - Format struk kasir A4-friendly
 - Tombol print browser
 - Informasi: tanggal, kode transaksi, produk, total
 
-### ✅ **Antarmuka User (UI/UX)**
+### **Antarmuka User (UI/UX)**
 - Sidebar navigasi collapsible
 - Menu: Dashboard, Produk, Transaksi, Analitik, Logout
 - Responsive design (mobile-first)
@@ -81,13 +80,13 @@ Sistem kasir modern untuk toko minuman dengan antarmuka yang elegan dan responsi
 - Real-time preview card
 - Loading indicator
 
-### ✅ **Database Integration**
+### **Database Integration**
 - Koneksi PDO ke MySQL dengan error handling
 - Prepared statements untuk security
 - Support NULL values di field kategori
 - Transaction logging
 
-### ⏳ **Fitur In Progress / Planned**
+### **Fitur In Progress / Planned**
 - Analitik dengan grafik penjualan
 - Search & filter produk
 - Pagination daftar produk
@@ -99,7 +98,7 @@ Sistem kasir modern untuk toko minuman dengan antarmuka yang elegan dan responsi
 
 ---
 
-## 📁 Struktur Proyek (Terorganisir)
+##Struktur Proyek (Terorganisir)
 
 ```
 tugas akhir/
@@ -150,11 +149,11 @@ tugas akhir/
 
 ---
 
-## 🗄️ Struktur Database & Relasi
+## Struktur Database & Relasi
 
 ### Database: `my_kasir`
 
-#### **Tabel 1: users** 👤
+#### **Tabel 1: users** 
 ```sql
 CREATE TABLE users (
     id_user INT PRIMARY KEY AUTO_INCREMENT,
@@ -167,7 +166,7 @@ CREATE TABLE users (
 
 ---
 
-#### **Tabel 2: kategori** 📂
+#### **Tabel 2: kategori** 
 ```sql
 CREATE TABLE kategori (
     id_kategori INT PRIMARY KEY AUTO_INCREMENT,
@@ -179,7 +178,7 @@ CREATE TABLE kategori (
 
 ---
 
-#### **Tabel 3: produk** 🍷
+#### **Tabel 3: produk** 
 ```sql
 CREATE TABLE produk (
     kode_produk VARCHAR(20) PRIMARY KEY,
@@ -200,7 +199,7 @@ CREATE TABLE produk (
 
 ---
 
-#### **Tabel 4: transaksi** 💰
+#### **Tabel 4: transaksi** 
 ```sql
 CREATE TABLE transaksi (
     id_transaksi INT PRIMARY KEY AUTO_INCREMENT,
@@ -273,13 +272,13 @@ CREATE TABLE transaksi (
 
 ---
 
-## 🚀 Cara Menjalankan Sistem
+## Cara Menjalankan Sistem
 
 ### **Prerequisites / Kebutuhan**
-- ✅ XAMPP, WAMP, atau Web Server lainnya dengan PHP 7.4+
-- ✅ MySQL/MariaDB database server
-- ✅ Browser modern (Chrome, Firefox, Edge)
-- ✅ Terminal/Command Prompt (untuk setup)
+- XAMPP, WAMP, atau Web Server lainnya dengan PHP 7.4+
+- MySQL/MariaDB database server
+- Browser modern (Chrome, Firefox, Edge)
+- Terminal/Command Prompt (untuk setup)
 
 ### **Langkah Setup:**
 
@@ -476,20 +475,20 @@ User bisa print/close
 
 ---
 
-## 📝 Changelog
+## Changelog
 
 ### v2.0 (Current)
-- ✅ Reorganisasi folder struktur profesional
-- ✅ Update README dengan dokumentasi lengkap
-- ✅ Struktur database relasional
-- ✅ Implementasi transaksi lengkap
-- ✅ Setup database SQL schema
+- Reorganisasi folder struktur profesional
+- Update README dengan dokumentasi lengkap
+- Struktur database relasional
+- Implementasi transaksi lengkap
+- Setup database SQL schema
 
 ### v1.0
-- ✅ CRUD Produk (Tambah, Edit, Hapus)
-- ✅ Login/Logout
-- ✅ Dashboard dengan statistik
-- ✅ Upload gambar produk
+- CRUD Produk (Tambah, Edit, Hapus)
+- Login/Logout
+- Dashboard dengan statistik
+- Upload gambar produk
 
 ---
 
@@ -499,9 +498,9 @@ User bisa print/close
 
 ---
 
-## 🎨 Fitur UI/UX
+## Fitur UI/UX
 
-### ✅ Selesai:
+### Selesai:
 - Dark theme dengan gradient accent (orange-pink-cyan)
 - Glassmorphism effect pada card
 - Sidebar responsive (collapse on mobile)
@@ -511,7 +510,7 @@ User bisa print/close
 - Notification toast messages
 - Color-coded status badges
 
-### ⏳ Perlu Ditambah:
+### Perlu Ditambah:
 - Dark/Light theme toggle
 - Loading spinner
 - Confirmation modal yang lebih fancy
@@ -521,7 +520,7 @@ User bisa print/close
 
 ---
 
-## 🚀 Cara Menggunakan
+## Cara Menggunakan
 
 ### Prerequisites
 - PHP 7.4+
@@ -541,21 +540,21 @@ User bisa print/close
 
 ---
 
-## 📝 Changelog
+## Changelog
 
 ### v1.0 (Current)
-- ✅ Implementasi CRUD Produk
-- ✅ Sistem Login/Logout
-- ✅ Real-time Preview
-- ✅ Upload Gambar dengan validasi
-- ✅ Statistik Dashboard
-- ✅ Responsive Design
+- Implementasi CRUD Produk
+- Sistem Login/Logout
+- Real-time Preview
+- Upload Gambar dengan validasi
+- Statistik Dashboard
+- Responsive Design
 
 ### v1.1 (Planned)
-- 🔄 Sistem Transaksi
-- 🔄 Laporan Penjualan
-- 🔄 Struk/Receipt Print
-- 🔄 Search & Filter
+- Sistem Transaksi
+- Laporan Penjualan
+- Struk/Receipt Print
+- Search & Filter
 
 ---
 
