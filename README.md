@@ -1,4 +1,4 @@
-DrinkCashier - Sistem Kasir Minuman Berbasis Web
+**DrinkCashier - Sistem Kasir Minuman Berbasis Web
 
 Sistem kasir modern untuk toko minuman dengan antarmuka yang elegan dan responsif. Dibangun menggunakan **PHP 7.4+, MySQL/MariaDB, dan HTML5** dengan desain **glassmorphism** yang menarik.
 
